@@ -1,11 +1,12 @@
 body {
-    background-color: #d1c8cd;
-    color: #373037;
+    background-color: #f76529;
+    color: #373037; 
 }
 
 h3, h2, h1 {
     font-family: "Dokdo", sans-serif;
     font-size: 2rem;
+    text-decoration: underline;
 }
 
 p, ol, ul {
@@ -29,4 +30,36 @@ nav a {
 
 nav a:hover {
     background-color: #9e3e9f;
+}
+
+.hotdog, .witch1, .witch {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 5px solid #333;
+    display: block;   
+    margin-top: 10px;  
+    margin-bottom: 20px;
+}
+
+.jalapeno, .meatball, .twodogs, .moredogs {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 5px solid #333; 
+}
+
+.ingredient-container, .mummies-container {
+    display: flex;      
+    align-items: flex-start; 
+    gap: 20px;            
+}
+
+.page-box {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: #d1c8cd;
+    border: 5px solid #333;
+    border-radius: 12px;
 }
