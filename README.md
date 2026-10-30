@@ -12,6 +12,7 @@ This is a website that has Halloween-related recipes. The first is a hot dog mum
 - smooth scroll effect
 - glowing headings
 - images that pop up when hovered
+- floating pumpkin
 
 ## How to run
 Download the files and open index.html in a browser.
